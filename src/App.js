@@ -14,7 +14,7 @@ class App extends Component{
     elemento.scrollIntoView('smooth', 'start');
   }
   paginaAnterior = () => {
-    //ller el state actual
+    //leer el state actual
     let pagina = this.state.pagina;
     //si la pagina =1 ya no ir hacia atras
     if(pagina===1)return null;
